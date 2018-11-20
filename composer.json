@@ -89,6 +89,8 @@
     }
   },
   "scripts": {
+    "varbase-handle-tags": "DrupalProject\\composer\\VarbaseUpdate::handleTags",
+    "varbase-composer-generate": "DrupalProject\\composer\\VarbaseUpdate::generate",
     "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
     "pre-install-cmd": ["Varbase\\composer\\ScriptHandler::checkComposerVersion"],
     "pre-update-cmd": ["Varbase\\composer\\ScriptHandler::checkComposerVersion"],
