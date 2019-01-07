@@ -1,0 +1,17 @@
+{
+  "name": "drupal/varbase_update_helper",
+  "type": "drupal-module",
+  "description": "Varbase update helper",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/varbase_update_helper",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/varbase_update_helper",
+    "source": "http://cgit.drupalcode.org/varbase_update_helper"
+  },
+  "require": {
+    "drupal/update_helper": "dev-1.x",
+    "drupal/checklistapi": "~1.8"
+  }
+}

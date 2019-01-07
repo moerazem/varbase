@@ -1,0 +1,53 @@
+8.x-6.3:
+    '#title': 'Update to version 8.x-6.3'
+    '#description': '<h3>These are the new features for this release:</h3>'
+    varbase_update_8601:
+        '#title': 'Added a default [Simple sitemap] settings with [Skip non-existent translations] checked by default.'
+        '#description': ''
+        '#description_successful': '<p>Configuration is successfully updated.</p>'
+        '#description_failed': '<p><strong>Update of configuration has failed.</strong><p>'
+    varbase_update_8602:
+        '#title': 'Added exposed date filters to [Content, People] views in [Varbase Admin] module, so that admins will be able list content or users with the selected date range.'
+        '#description': '<p>This update is optional please run <strong>drush vau varbase_admin 8602</strong> to apply this update.</p>'
+        '#description_successful': '<p>Configuration is successfully updated.</p>'
+        '#description_failed': '<p><strong>Update of configuration has failed.</strong><p>'
+    varbase_update_8603:
+        '#title': 'Changed Default database server config to have matching partial.'
+        '#description': ''
+        '#description_successful': '<p>Configuration is successfully updated.</p>'
+        '#description_failed': '<p><strong>Update of configuration has failed.</strong><p>'
+    varbase_update_8604:
+        '#title': 'Varbase editor Switched to use [Remote Video] with oEmbed from Drupal 8.6.x core.'
+        '#description': '<p>Changed [Rich editor] text format to allow for Align images Uses a data-align attribute on <img> tags to align images</p><p>Removed [Drupal Image] and [Video embed] CKEditor command buttons from Rich editor and Simple editor.</p>'
+        '#description_successful': '<p>Configuration is successfully updated.</p>'
+        '#description_failed': '<p><strong>Update of configuration has failed.</strong><p>'
+    varbase_update_8605:
+        '#title': 'Varbase blog Switched to use [Remote Video] with oEmbed from Drupal 8.6.x core.'
+        '#description': '<p>Change the [Field Media] og:image metatags for [Varbase blog] to use our custom social token [node:field_media:entity:social_large]</p><p>Changed [Main Image] field to [Main Media] to use [Field Media] from [Varbase Core] for images and video posts, and use the [Media Browser] from [Varbase Media] as the default Media browser for the [Blog Post] content type</p>'
+        '#description_successful': '<p>Configuration is successfully updated.</p>'
+        '#description_failed': '<p><strong>Update of configuration has failed.</strong><p>'
+    varbase_update_8606:
+        '#title': 'Fixed homepage with H1 tag for website name.'
+        '#description': ''
+        '#description_successful': '<p>Configuration is successfully updated.</p>'
+        '#description_failed': '<p><strong>Update of configuration has failed.</strong><p>'
+    varbase_update_8607:
+        '#title': 'Changed filed [Slide media (image/video)] to use Media types of Image, Video (embed), and Video (local), and -changed the [Heroslider Media Browser] to let user upload videos.'
+        '#description': ''
+        '#description_successful': '<p>Configuration is successfully updated.</p>'
+        '#description_failed': '<p><strong>Update of configuration has failed.</strong><p>'
+    varbase_update_8608:
+        '#title': 'Changed to use the Image Browser and removed the carousels media browser.'
+        '#description': ''
+        '#description_successful': '<p>Configuration is successfully updated.</p>'
+        '#description_failed': '<p><strong>Update of configuration has failed.</strong><p>'
+    varbase_update_8609:
+        '#title': 'Removed [panelizer] module with all used configs.'
+        '#description': ''
+        '#description_successful': '<p>Configuration is successfully updated.</p>'
+        '#description_failed': '<p><strong>Update of configuration has failed.</strong><p>'
+    varbase_update_8610:
+        '#title': 'Changed modules and config to work with [Media] Drupal core'
+        '#description': ''
+        '#description_successful': '<p>Configuration is successfully updated.</p>'
+        '#description_failed': '<p><strong>Update of configuration has failed.</strong><p>'

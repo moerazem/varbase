@@ -1,0 +1,38 @@
+<?php
+
+/**
+ * @file
+ * Contains varbase_update_helper.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function varbase_update_helper_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the varbase_update_helper module.
+    case 'help.page.varbase_update_helper':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Varbase update helper') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+function varbase_update_helper_varbase_update($module, $number){
+  /** @var \Drupal\update_helper\Updater $updateHelper */
+  $updateHelper = \Drupal::service('update_helper.updater');
+
+  switch ($module . "_" . $number) {
+    case "varbase_admin_8602":
+        // Execute configuration update definitions with logging of success.
+        $updateHelper->executeUpdate('varbase', 'varbase_update_8602');
+        // Output logged messages to related channel of update execution.
+        return $updateHelper->logger()->output();
+        break;
+  }
+}

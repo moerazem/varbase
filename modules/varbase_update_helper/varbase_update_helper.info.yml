@@ -1,0 +1,9 @@
+name: 'varbase_update_helper'
+type: module
+description: 'Varbase update helper'
+core: 8.x
+package: 'Varbase'
+dependencies:
+  - update_helper
+  - update_helper_checklist
+  - checklistapi
